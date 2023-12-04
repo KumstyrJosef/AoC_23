@@ -7,8 +7,8 @@ import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Task01 {
-    public long countCalibrationValueForFile(String filePath) throws IOException {
+public class Task01 implements Task {
+    public long solve(String filePath) throws IOException {
         return Files.lines(Path.of(filePath))
                 .mapToLong(this::countCalibrationValueForLine)
                 .sum();
