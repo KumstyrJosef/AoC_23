@@ -24,7 +24,7 @@ public class Task06 implements Task  {
                 .count();
     }
 
-    private static Long parseLine(String line) {
+    private static long parseLine(String line) {
         return Pattern.compile("\\d+")
                 .matcher(line)
                 .results()
