@@ -24,7 +24,8 @@ class UnitTest {
                 Arguments.of(new Task03(), "03", 87263515),
                 Arguments.of(new Task04(), "04", 5625994),
                 Arguments.of(new Task05(), "05", 2254686),
-                Arguments.of(new Task06(), "06", 27340847)
+                Arguments.of(new Task06(), "06", 27340847),
+                Arguments.of(new Task07(), "07", 253473930)
         );
     }
 }
